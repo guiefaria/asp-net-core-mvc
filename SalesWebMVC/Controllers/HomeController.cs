@@ -14,10 +14,11 @@ namespace SalesWebMVC.Controllers
         {
             return View();
         }
-
+        //Super tipo pra todas as ações, podem ser usados diversos tipos
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Nome"] = "Sales Web MVC App";
+            ViewData["Email"] = "guiefaia@gmail.com";
 
             return View();
         }

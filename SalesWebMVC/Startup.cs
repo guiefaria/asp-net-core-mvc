@@ -58,6 +58,7 @@ namespace SalesWebMVC
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            //O padrão é chamar a página Home
         }
     }
 }

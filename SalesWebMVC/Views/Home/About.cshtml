@@ -1,7 +1,14 @@
-﻿@{
+﻿@{ //Onde deve ficar código C#
     ViewData["Title"] = "About";
+    
 }
+
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
 
 <p>Use this area to provide additional information.</p>
+
+<p>Projeto @ViewData["Nome"]</p>
+<p>@ViewData["Email"]</p>
+@*Definido dentro da Action do botão About 
+Utiliza o @  para pegar o conteúdo do campo da ViewData*@
